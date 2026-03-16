@@ -10,22 +10,22 @@ VIBEsin takana häärää innokas nuorkauppakamarilaisten vapaaehtoisten joukko 
 
 **Tiimimme:**
 
-- Tyttilotta Aallosto - Senior Project Advisor
-- Liisa Vanharanta - Kumppanuustiimi
+- Tyttilotta Aallosto - Senior Project Advisor & visuaalinen suunnittelu
+- Liisa Vanharanta - Projektipäällikkö 2026
 - Matleena Pinoniemi - Co-lead & some- ja markkinointitiimi
 - Erica Virkkula - Some- ja markkinointitiimi
 - Anela Denic - Kumppanuusvastaava
 - Jenna Enbuska - Kumppanuusvastaava
 - Jari Jääskelä - IT-vastaava
-- Julia Hakala
+- Julia Hakala - Kumppanuudet ja markkinointi
 - Emir Koivunen - IT-tiimi
 - Satu Kontio - Kumppanuus- ja visuaalinen tiimi
-- Niina Kuusivuori
+- Niina Kuusivuori - Sometiimi
 - Jenny Laakkonen - IT- ja visuaalinen tiimi
-- Tamara Louis
-- Inka Niskanen
-- Olli Remes
-- Sara Vuoti
+- Tamara Louis - Kumppanuudet
+- Inka Niskanen - Markkinointi
+- Olli Remes - Kumppanuudet
+- Sara Vuoti - Visuaalinen suunnittelu
 
 ----
 
