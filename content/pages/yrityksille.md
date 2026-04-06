@@ -106,4 +106,4 @@ Pilottivaiheessa pääset vaikuttamaan konseptin luomiseen - olemmekin erittäin
 
 instagram: all.vibes.ok
 
-![](../../assets/images/vibes-partners.png)
+![](/images/vibes-partners.png)
