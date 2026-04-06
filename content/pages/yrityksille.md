@@ -75,7 +75,7 @@ Laita siis firman merchandise päälle, banderolli valmiiksi ja tule kanssamme m
 
 Kumppanina olet osa vastuullisten oululaisten yrittäjien yhteisöä, joka rakentaa kaupungin elinvoimaa, positiivista näkyvyyttä ja tulevaisuuden osaajapohjaa.
 
-{{< image src="images/vibes-partners.png" position="center" command="fill" option="q100" class="img-fluid" >}}
+{{< image src="assets/images/vibes-partners.png" position="center" command="fill" option="q100" class="img-fluid" >}}
 
 Lisäksi VIBEs tarjoaa yrityksellenne:
 
