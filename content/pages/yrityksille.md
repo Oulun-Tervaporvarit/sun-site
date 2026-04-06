@@ -9,6 +9,10 @@ Meidän nuoremme tarvitsevat mielenterveyden tukemisen oheen ennaltaehkäisevä�
 
 Me Oulun Tervaporvarien Nuorkauppakamarissa tarjoamme teille helpon tavan vahvistaa brändiänne, tavoittaa uusia asiakkaita ja samalla tukea oululaisten nuorten hyvinvointia.
 
+
+{{< image src="images/vibes-partners.png" position="center" command="fill" option="q100" class="img-fluid" >}}
+
+
 <details>
 <summary><strong>Mikä on VIBEs?</strong></summary>
 
@@ -74,8 +78,6 @@ Laita siis firman merchandise päälle, banderolli valmiiksi ja tule kanssamme m
 <summary><strong>Mitä muuta rahakumppani saa?</strong></summary>
 
 Kumppanina olet osa vastuullisten oululaisten yrittäjien yhteisöä, joka rakentaa kaupungin elinvoimaa, positiivista näkyvyyttä ja tulevaisuuden osaajapohjaa.
-
-{{< image src="assets/images/vibes-partners.png" position="center" command="fill" option="q100" class="img-fluid" >}}
 
 Lisäksi VIBEs tarjoaa yrityksellenne:
 
