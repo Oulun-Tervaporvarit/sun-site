@@ -31,6 +31,11 @@ testimonials:
     avatar: "/images/partners/floats.png"
     content: "Yhteistyöasiaa"
     link: "https://www.floats.fi/"
+  - name: "Pakotalo"
+    greetings: "Terkuin ..."
+    avatar: "/images/partners/pakotalo.webp"
+    content: "Yhteistyöasiaa"
+    link: "https://pakotalo.fi/"
 
   #- name: "Marvin McKinney"
   #  greetings: "Terkuin ..."
