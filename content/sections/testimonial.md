@@ -51,6 +51,17 @@ testimonials:
     avatar: "/images/partners/bolkv.svg"
     content: "Yhteistyöasiaa"
     link: "https://bo.fi/"
+  - name: "Kärpät"
+    greetings: "Terkuin ..."
+    avatar: "/images/partners/Oulun_Kärpät_logo.svg"
+    content: "Yhteistyöasiaa"
+    link: "https://www.karpat.fi/"
+  - name: "Rela-hierojat"
+    greetings: "Terkuin ..."
+    avatar: "/images/partners/rela-logo-sin.svg"
+    content: "Yhteistyöasiaa"
+    link: "https://www.relahierojat.fi/"
+
 
   #- name: "Marvin McKinney"
   #  greetings: "Terkuin ..."
