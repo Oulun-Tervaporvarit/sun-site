@@ -14,10 +14,18 @@
   --sun-logo-sun: #b76e22;    /* SUN wordmark color */
 }
 
-/* The theme's body class applies bg-body. Re-assert here so the
-   background stays the brand orange even on long pages. */
+/* The theme's body class applies bg-body. Re-assert here and layer the
+   sun-ray brand poster as a fixed background so the page keeps its
+   aurinkoinen feel even when scrolled. */
 body {
   background-color: var(--sun-bg);
+  background-image:
+    linear-gradient(rgba(235, 172, 0, 0.25), rgba(235, 172, 0, 0.45)),
+    url("/images/sun-tarra.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: min(85vw, 85vh);
+  background-attachment: fixed;
   color: var(--sun-text);
 }
 
