@@ -14,17 +14,19 @@
   --sun-logo-sun: #b76e22;    /* SUN wordmark color */
 }
 
-/* The theme's body class applies bg-body. Re-assert here and layer the
-   sun-ray brand poster as a fixed background so the page keeps its
-   aurinkoinen feel even when scrolled. */
+/* Fixed sun-rise poster behind every page. `contain` keeps the whole
+   image visible at any aspect ratio: on portrait/mobile it fills the
+   width with yellow below it, on wide / ultra-wide desktops it fills
+   the height with the body colour on either side. The image's yellow
+   ground blends into --sun-bg so there is no hard edge. */
 body {
   background-color: var(--sun-bg);
   background-image:
-    linear-gradient(rgba(235, 172, 0, 0.25), rgba(235, 172, 0, 0.45)),
-    url("/images/sun-tarra.png");
+    linear-gradient(rgba(235, 172, 0, 0.20), rgba(235, 172, 0, 0.35)),
+    url("/images/sun-background.jpeg");
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: min(85vw, 85vh);
+  background-position: center top;
+  background-size: cover, contain;
   background-attachment: fixed;
   color: var(--sun-text);
 }
