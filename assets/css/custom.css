@@ -79,14 +79,14 @@ body {
 }
 
 .nav-link {
-  color: var(--sun-logo-sun) !important;
+  color: var(--sun-text-bg) !important;
   font-weight: 700;
   font-size: 1.5rem;
   text-shadow:
-    -1px -1px 0 var(--sun-text-bg),
-     1px -1px 0 var(--sun-text-bg),
-    -1px  1px 0 var(--sun-text-bg),
-     1px  1px 0 var(--sun-text-bg);
+    -1px -1px 0 var(--sun-text),
+     1px -1px 0 var(--sun-text),
+    -1px  1px 0 var(--sun-text),
+     1px  1px 0 var(--sun-text);
 }
 
 .nav-link:hover,
