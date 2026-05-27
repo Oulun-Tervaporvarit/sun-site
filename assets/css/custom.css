@@ -62,8 +62,16 @@ body {
 }
 
 /* ----- Header / nav ----- */
+/* The hugoplate theme wraps the header in a .top-bg div with a dark
+   gradient over background-smiles.png. Strip it so the body's sun
+   poster shows through to the very top of the page. */
+.top-bg {
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
 .header {
-  background-color: var(--sun-bg);
+  background-color: transparent;
 }
 
 .navbar-brand {
@@ -71,8 +79,14 @@ body {
 }
 
 .nav-link {
-  color: var(--sun-text) !important;
+  color: var(--sun-logo-sun) !important;
   font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow:
+    -1px -1px 0 var(--sun-text-bg),
+     1px -1px 0 var(--sun-text-bg),
+    -1px  1px 0 var(--sun-text-bg),
+     1px  1px 0 var(--sun-text-bg);
 }
 
 .nav-link:hover,
