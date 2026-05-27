@@ -3,7 +3,7 @@
   {{/* ============ Info / Hero ============ */}}
   {{ with .Params.info }}
     {{ if .enable }}
-      <section id="info" class="sun-section sun-section--alt">
+      <section id="info" class="sun-section">
         <div class="container">
           <div class="row items-center">
             <div class="md:col-7 mb-8 text-center md:text-left">
@@ -44,9 +44,9 @@
     {{ if .enable }}
       <section id="ohjelma" class="sun-section">
         <div class="container">
-          <div class="text-center">
+          <div class="sun-card text-center">
             <h2 class="mb-6">{{ .title }}</h2>
-            <div class="sun-card mx-auto" style="max-width: 720px;">
+            <div class="mx-auto" style="max-width: 720px;">
               <p class="text-lg">{{ .placeholder }}</p>
             </div>
           </div>
@@ -58,9 +58,9 @@
   {{/* ============ Liput ============ */}}
   {{ with .Params.liput }}
     {{ if .enable }}
-      <section id="liput" class="sun-section sun-section--alt">
+      <section id="liput" class="sun-section">
         <div class="container">
-          <div class="text-center">
+          <div class="sun-card text-center">
             <h2 class="mb-4">{{ .title }}</h2>
             <p class="text-lg mb-8">{{ .intro }}</p>
             {{ with .cta }}
@@ -127,14 +127,13 @@
   {{/* ============ Puhujat ============ */}}
   {{ with .Params.puhujat }}
     {{ if .enable }}
-      <section id="puhujat" class="sun-section sun-section--alt">
+      <section id="puhujat" class="sun-section">
         <div class="container">
-          <div class="text-center mb-10">
+          <div class="sun-card text-center mb-10">
             <h2 class="mb-4">{{ .title }}</h2>
             <p class="text-lg">{{ .intro }}</p>
-          </div>
 
-          <div class="sun-speaker-grid">
+                      <div class="sun-speaker-grid">
             {{ $n := .placeholders | default 3 }}
             {{ range seq $n }}
               <div class="sun-speaker-card">
@@ -143,6 +142,7 @@
                 <p style="opacity: 0.7;">Puhuja {{ . }}</p>
               </div>
             {{ end }}
+          </div>
           </div>
         </div>
       </section>
@@ -154,14 +154,15 @@
     {{ if .enable }}
       <section id="yhteystiedot" class="sun-section">
         <div class="container">
-          <div class="text-center mb-10">
+          <!--<div class="text-center mb-10">
             <h2>{{ .title }}</h2>
-          </div>
+          </div>-->
 
           <div class="row items-start">
             {{ with .location }}
               <div class="md:col-6 mb-8">
                 <div class="sun-card">
+                  
                   <h3 class="mb-2">{{ .name }}</h3>
                   <p class="mb-3"><strong>{{ .address }}</strong></p>
                   <p>{{ .description }}</p>

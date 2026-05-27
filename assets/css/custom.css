@@ -8,10 +8,10 @@
 :root {
   --sun-bg: #ebac00;          /* page background */
   --sun-content: #f7e36a;     /* content area background */
-  --sun-accent: #00aaab;      /* highlights and buttons */
+  --sun-accent: #f85001;      /* highlights and buttons */
   --sun-text: #f85001;        /* primary text content (Rustic Printed) */
   --sun-text-bg: #fffce9;     /* background behind text blocks (Solero) */
-  --sun-logo-sun: #b76e22;    /* SUN wordmark color */
+  --sun-logo-sun: #f85001;    /* SUN wordmark color */
 }
 
 /* Fixed sun-rise poster behind every page. `contain` keeps the whole
