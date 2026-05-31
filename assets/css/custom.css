@@ -102,19 +102,13 @@ body {
   border-radius: 0.5rem;
 }
 
-/* Mobile hamburger toggler: use the accent/button color with an outline so it
-   stands out against the gold header background instead of blending in. */
+/* Always show the navigation links and drop the mobile hamburger toggler. */
 label[for="nav-toggle"] {
-  color: var(--sun-accent) !important;
+  display: none !important;
 }
 
-label[for="nav-toggle"] svg {
-  height: 2.25rem;
-  filter:
-    drop-shadow(-1px -1px 0 var(--sun-text-bg))
-    drop-shadow(1px -1px 0 var(--sun-text-bg))
-    drop-shadow(-1px 1px 0 var(--sun-text-bg))
-    drop-shadow(1px 1px 0 var(--sun-text-bg));
+#nav-menu {
+  display: flex !important;
 }
 
 /* Mobile: enlarge the logo and center it horizontally in the header.
@@ -124,19 +118,11 @@ label[for="nav-toggle"] svg {
     height: 150px;
   }
 
-  /* Let the brand container fill the row and center the logo, while the
-     hamburger toggler is pinned to the right so the logo sits page-centered. */
+  /* Center the logo, with the always-on nav links wrapping centered below it. */
   .navbar > .order-0 {
-    flex: 1 1 auto;
+    flex: 1 1 100%;
     display: flex;
     justify-content: center;
-  }
-
-  .navbar > label[for="nav-toggle"] {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
   }
 }
 
