@@ -102,6 +102,21 @@ body {
   border-radius: 0.5rem;
 }
 
+/* Mobile hamburger toggler: use the accent/button color with an outline so it
+   stands out against the gold header background instead of blending in. */
+label[for="nav-toggle"] {
+  color: var(--sun-accent) !important;
+}
+
+label[for="nav-toggle"] svg {
+  height: 2.25rem;
+  filter:
+    drop-shadow(-1px -1px 0 var(--sun-text-bg))
+    drop-shadow(1px -1px 0 var(--sun-text-bg))
+    drop-shadow(-1px 1px 0 var(--sun-text-bg))
+    drop-shadow(1px 1px 0 var(--sun-text-bg));
+}
+
 /* Mobile: enlarge the logo and center it horizontally in the header.
    The footer logo is already centered on mobile via its `text-center` class. */
 @media (max-width: 1023px) {
