@@ -2,7 +2,11 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Disabled: deploys only run when manually triggered from the Actions tab
+  # Deploy automatically on every push to master
+  push:
+    branches:
+      - master
+  # Also allow manual runs from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
