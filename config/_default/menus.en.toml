@@ -2,11 +2,6 @@
 
 # main menu
 [[main]]
-name = "Info"
-url = "/#info"
-weight = 1
-
-[[main]]
 name = "Ohjelma"
 url = "/#ohjelma"
 weight = 2
@@ -33,11 +28,6 @@ weight = 6
 
 
 # footer menu
-[[footer]]
-name = "Info"
-url = "/#info"
-weight = 1
-
 [[footer]]
 name = "Ohjelma"
 url = "/#ohjelma"
