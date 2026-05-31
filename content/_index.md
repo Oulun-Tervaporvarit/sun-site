@@ -36,7 +36,6 @@ liput:
   cta:
     label: "Ilmoittaudu!"
     link: "https://events.jciouluntervaporvarit.fi/sunkasvutarina"
-  note: "Rekisteröityminen Eventillan kautta. Lomake-embed lisätään pian."
 
 # ---------- Kumppanit (commented out until partners confirmed) ----------
 kumppanit:
