@@ -130,6 +130,18 @@ label[for="nav-toggle"] {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  /* Remove the active/selected link highlight color on mobile so every link
+     keeps the same color, and drop the tap-highlight box. */
+  .nav-link,
+  .nav-link.active,
+  .nav-link:hover {
+    color: var(--sun-text-bg) !important;
+  }
+
+  .nav-link {
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 /* ----- Logo (SUN + kasvutarina) ----- */
