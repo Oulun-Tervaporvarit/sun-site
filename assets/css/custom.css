@@ -106,7 +106,7 @@ body {
    The footer logo is already centered on mobile via its `text-center` class. */
 @media (max-width: 1023px) {
   .sun-logo-img {
-    height: 96px;
+    height: 150px;
   }
 
   /* Let the brand container fill the row and center the logo, while the
