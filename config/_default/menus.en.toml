@@ -12,11 +12,6 @@ url = "/#liput"
 weight = 3
 
 [[main]]
-name = "Kumppanit"
-url = "/#kumppanit"
-weight = 4
-
-[[main]]
 name = "Puhujat"
 url = "/#puhujat"
 weight = 5
