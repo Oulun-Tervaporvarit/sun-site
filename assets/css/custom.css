@@ -124,6 +124,12 @@ label[for="nav-toggle"] {
     display: flex;
     justify-content: center;
   }
+
+  /* Let the links wrap onto multiple rows instead of one too-wide row. */
+  #nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 /* ----- Logo (SUN + kasvutarina) ----- */
