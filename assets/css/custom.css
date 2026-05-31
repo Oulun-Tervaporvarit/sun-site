@@ -96,10 +96,33 @@ body {
 
 /* ----- Logo image (header + footer) ----- */
 .sun-logo-img {
-  height: 56px;
+  height: 72px;
   width: auto;
   object-fit: contain;
   border-radius: 0.5rem;
+}
+
+/* Mobile: enlarge the logo and center it horizontally in the header.
+   The footer logo is already centered on mobile via its `text-center` class. */
+@media (max-width: 1023px) {
+  .sun-logo-img {
+    height: 96px;
+  }
+
+  /* Let the brand container fill the row and center the logo, while the
+     hamburger toggler is pinned to the right so the logo sits page-centered. */
+  .navbar > .order-0 {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar > label[for="nav-toggle"] {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 /* ----- Logo (SUN + kasvutarina) ----- */
